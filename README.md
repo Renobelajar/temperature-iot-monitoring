@@ -32,5 +32,4 @@ IoT-based temperature monitoring project using Arduino and temperature sensors.
 ## How It Works
 The temperature sensor reads environmental temperature data and sends it to the Arduino board. The data is then processed and displayed through the serial monitor for real-time monitoring.
 
-## Author
-Reno
+

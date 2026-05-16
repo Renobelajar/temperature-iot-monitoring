@@ -1,35 +1,25 @@
-# IoT Temperature Monitoring
+# IoT Temperature and Humidity Monitoring
 
-IoT-based temperature monitoring project using Arduino and temperature sensors.
+IoT-based monitoring system using Arduino and DHT22 sensor to monitor temperature and humidity in real time.
 
 ## Features
 - Real-time temperature monitoring
-- Temperature sensor data reading
+- Humidity monitoring
+- Heat index calculation
 - Serial monitor output
-- Hardware-based monitoring system
 
 ## Components
-- Arduino
-- Temperature Sensor
+- Arduino Uno
+- DHT22 Sensor
 - Breadboard
 - Jumper Wires
-- USB Cable
 
-## Tools
+## Technologies
 - Arduino IDE
-
-## Programming Language
 - Arduino C++
 
-## Project Documentation
-
-### Device Preview
-(Add your project photos here)
-
-### Demo Video
-(Add your demo video link here)
-
-## How It Works
-The temperature sensor reads environmental temperature data and sends it to the Arduino board. The data is then processed and displayed through the serial monitor for real-time monitoring.
-
-
+## Output
+- Temperature in Celsius
+- Temperature in Fahrenheit
+- Humidity percentage
+- Heat index
